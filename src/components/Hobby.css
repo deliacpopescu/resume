@@ -1,0 +1,10 @@
+.item{
+    background-color: rgba(240, 240, 240, 0.7);
+    position: relative;
+    top:0;
+    transition: top ease 0.5s;
+}
+.item:hover{
+    top:-20px;
+background-color: #7cba01;
+}

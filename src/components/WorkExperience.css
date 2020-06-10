@@ -1,0 +1,23 @@
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    border-left: 1px solid #9EAE0E;
+}
+.timeline-icon {
+    border: 1px solid #9EAE0E;
+    background-color: #9EAE0E;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: -9px;
+    z-index: 10;
+}
+h6, p{
+    text-align: left;
+    margin-left: 20px;
+}
+h4{
+    letter-spacing: 4px;
+}

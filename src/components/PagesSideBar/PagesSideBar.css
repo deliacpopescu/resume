@@ -1,0 +1,13 @@
+.sidebar-list {
+    list-style-type: none;
+}
+
+#sideBar {
+    padding: 10px;
+    border-top: 6px solid #9EAE0E;
+}
+
+#sideBar:hover {
+    transform: translateX(-10px);
+    width: 70px;
+}

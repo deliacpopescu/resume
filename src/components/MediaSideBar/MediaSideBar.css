@@ -1,0 +1,21 @@
+#follow {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border-left: 6px solid #9EAE0E;
+    height: 200px;
+    font-size: 20px;
+}
+
+.icons {
+    writing-mode: vertical-rl;
+}
+
+.icons i {
+    font-size: 20px;
+}
+.icons a i{
+    color:white;
+}
+.icons a i:hover{
+    color:#9EAE0E;
+}
