@@ -4,9 +4,9 @@ import "./Studies.css";
 class Studies extends Component {
   render() {
     return (
-      <div className="d-flex">
-        <div className="container h-100 overlay-with-background align-self-center rounded">
-          <div className="row text-black-50 p-1">
+      <div className="d-flex p-3">
+        <div className="container h-100 overlay-with-background align-self-center rounded p-5">
+          <div className="row text-black-50 p-2">
             <div className="container">
               <h4 className="font-weight-bold font-italic mb-4">Studies</h4>
               <div className="row">

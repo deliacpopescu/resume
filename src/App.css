@@ -1,6 +1,7 @@
 body {
     margin: 0;
     /*font: normal 75% ;*/
+    overflow: auto;
 }
 
 canvas {
@@ -14,18 +15,17 @@ canvas {
 }
 
 .particles-js {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
-    background-color: rgba(51, 0, 51, 0.9);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+
 }
 
 .particles-js {
-    background-color: rgba(51, 0, 51, 0.9);
-    position: fixed;
+    background-color: rgb(208, 204, 232);
     top: 0;
     right: 0;
     bottom: 0;
@@ -42,16 +42,3 @@ canvas {
     position: relative;
 }
 
-/*.overlay-with-background {*/
-/*    position: relative;*/
-/*  background-size: cover;*/
-/*    background-color: white;*/
-/*    z-index: 0;*/
-/*}*/
-/*.overlay-with-background:after{*/
-/*    content:"";*/
-/*    position: absolute;*/
-/*    background-color: #7cba01;*/
-/*    height:100%;*/
-/*    z-index:-1;*/
-/*}*/

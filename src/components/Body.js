@@ -11,7 +11,7 @@ import Particles from "react-particles-js";
 class Body extends Component {
   render() {
     return (
-      <div id="main-container" className="container-fluid">
+      <div id="main-container" className="container-fluid ">
         <Particles className="particles-js" params={{
           particles: {
             number: {

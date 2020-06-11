@@ -1,11 +1,11 @@
 .timeline-item {
     position: relative;
     margin-bottom: 30px;
-    border-left: 1px solid #9EAE0E;
+    border-left: 1px solid rgb(95, 70, 242);
 }
 .timeline-icon {
-    border: 1px solid #9EAE0E;
-    background-color: #9EAE0E;
+    border: 1px solid rgb(95, 70, 242);
+    background-color: rgb(95, 70, 242);
     width: 15px;
     height: 15px;
     border-radius: 50%;

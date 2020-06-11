@@ -22,12 +22,12 @@ class Navbar extends Component {
   render() {
     return (
       <header className="head-main">
-        <div className="navbar navbar-dark bg-dark box-shadow">
+        <div className="navbar navbar-light bg-light box-shadow ">
           <div className="container d-flex justify-content-between nav-item">
             <Link to="/" className="navbar-brand ml-0 d-flex align-items-center">
               <strong>Delia Popescu</strong>
             </Link>
-            <button className="navbar-toggler nav-button first-butto" type="button"
+            <button className="navbar-toggler nav-button first-button" type="button"
                     onClick={() => this.toggleNavigationMenu()}>
               <span className="dark-blue-text">
                 <i className="fas fa-bars fa-1x"></i>
