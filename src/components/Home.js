@@ -5,7 +5,7 @@ import TextTyping from "./TextTyping";
 class Home extends Component {
   render() {
     return (
-      <div className="d-inline-flex justify-content-center typingText">
+      <div className="container d-inline-flex justify-content-center typingText">
         <div className="d-flex vh-100 col-10">
           <div className="container align-self-center ">
             <div className=" p-4 typingColor">

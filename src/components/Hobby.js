@@ -18,7 +18,7 @@ class Hobby extends Component {
             <div className="col-lg-3 text-center text-md-left m-2">
               <div className="item shadow-sm rounded-lg">
                 <div className="text-center p-4">
-              Cycling
+                  Cycling
                 </div>
               </div>
             </div>
@@ -41,7 +41,7 @@ class Hobby extends Component {
             <div className="col-lg-3 text-center text-md-left m-2">
               <div className="item shadow-sm rounded-lg">
                 <div className="text-center p-4">
-                 Traveling / Trips
+                  Traveling / Trips
                 </div>
               </div>
             </div>

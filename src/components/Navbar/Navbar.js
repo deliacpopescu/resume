@@ -5,9 +5,11 @@ import "./Navbar.css";
 import {withRouter} from "react-router-dom";
 
 class Navbar extends Component {
-  state = {
-    showNavigationModal: false
-  };
+    state = {
+      showNavigationModal: false,
+
+    };
+
 
   toggleNavigationMenu() {
     if (!this.state.showNavigationModal) {
@@ -18,6 +20,19 @@ class Navbar extends Component {
       this.setState({showNavigationModal: false});
     }
   }
+  componentDidMount() {
+    this.setState({
+      filtered: this.props.items
+    });
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      filtered: nextProps.items
+    });
+  }
+
+
 
   render() {
     return (
@@ -27,6 +42,32 @@ class Navbar extends Component {
             <Link to="/" className="navbar-brand ml-0 d-flex align-items-center">
               <strong>Delia Popescu</strong>
             </Link>
+            <div className="dropdown m-0 p-0">
+              <button className="btn btn-primary  dropdown-toggle p-3" type="button" id="dropdownMenu1"
+                      data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false" id="followButton">
+                <i className="far fa-comments"></i>
+              </button>
+              <div id="dropdown-menu" className="dropdown-menu dropdown-primary ">
+                {/*<a className="dropdown-item p-2" href="https://www.facebook.com/">*/}
+                {/*  <i className="fab fa-facebook m-3"></i>*/}
+                {/*</a>*/}
+                {/*<a class="dropdown-item p-2" href="https://www.instagram.com/">*/}
+                {/*  <i className="fab fa-instagram-square m-3"></i>*/}
+                {/*</a>*/}
+                <a class="dropdown-item p-2" href="https://www.linkedin.com/feed/">
+                  <i className="fab fa-linkedin m-3"></i>
+                </a>
+                <a class="dropdown-item p-2" href="https://github.com/deliacpopescu">
+                  <i className="fab fa-github m-3"></i>
+                </a>
+              </div>
+            </div>
+            <form className="form-inline">
+              <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                     autoComplete="off" />
+              {/*<button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*/}
+            </form>
             <button className="navbar-toggler nav-button first-button" type="button"
                     onClick={() => this.toggleNavigationMenu()}>
               <span className="dark-blue-text">
@@ -35,7 +76,7 @@ class Navbar extends Component {
             </button>
           </div>
         </div>
-        <div className="fixed-top main-menu">
+        <div className="fixed-top main-menu" onClick={() => this.toggleNavigationMenu()}>
           <div className="flex-center p-5">
             <ul className="nav flex-column">
               <Link to="/">

@@ -4,7 +4,7 @@ import "./MediaSideBar.css";
 class MediaSideBar extends Component {
   render() {
     return (
-      <div id="media-icons" className="position-relative my-auto text-white col-1">
+      <div id="media-icons" className="position-relative my-auto  col-1">
         <span className="overlay" id="follow">Follow Me</span>
         <div className="overlay icons pl-3">
           <a href="https://www.facebook.com/">

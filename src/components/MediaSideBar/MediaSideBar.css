@@ -20,3 +20,8 @@
 .icons a i:hover{
     color:rgb(26, 6, 145);
 }
+@media only screen and (max-width: 800px) {
+    #media-icons{
+       display:none;
+    }
+}
