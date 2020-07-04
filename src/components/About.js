@@ -5,15 +5,15 @@ import me from "../Images/me.jpeg";
 class About extends Component {
   render() {
     return (
-      <div className="d-flex vh-100">
-        <div className="container overlay-with-background align-self-center rounded">
+      <div id="all" className="d-flex h-100">
+        <div id="about" className="container   overlay-with-background align-self-center rounded">
           <div className="row text-black-50 p-4">
-            <div className="col-xl-3 ">
+            <div className="col-xl-4 ">
               <img src={me} className="picture " alt="pic"/>
             </div>
-            <div className="col-xl-9 text-center my-auto info">
-              <h1 className=" row justify-content-center font-weight-bold">Front-End Web Developer</h1>
-              <div className="row p-5 information">
+            <div className="col-xl-8 text-center my-auto info">
+              <h1 className=" row justify-content-center font-weight-bold my-4">Front-End Web Developer</h1>
+              <div className="row  information ">
                 <div className="col-xl-6 text-left">
                   <h5 className="font-weight-bold">Name : <span className="font-weight-normal">Delia Popescu</span></h5>
                   <h5 className="font-weight-bold">Birtday : <span className="font-weight-normal">30.09.1990</span></h5>

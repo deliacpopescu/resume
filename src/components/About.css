@@ -1,6 +1,22 @@
 .picture{
     height:400px;
+    margin:20px;
 }
 .info h1{
     color:rgb(95, 70, 242);
+}
+
+@media only screen and (max-width: 800px){
+   #all{
+       margin-top:0px;
+   }
+    .picture{
+        height:200px;
+    }
+    .info h1{
+        font-size: 20px;
+    }
+     .information h5{
+        font-size: 15px;
+    }
 }

@@ -63,11 +63,6 @@ class Navbar extends Component {
                 </a>
               </div>
             </div>
-            <form className="form-inline">
-              <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
-                     autoComplete="off" />
-              {/*<button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*/}
-            </form>
             <button className="navbar-toggler nav-button first-button" type="button"
                     onClick={() => this.toggleNavigationMenu()}>
               <span className="dark-blue-text">
@@ -92,6 +87,11 @@ class Navbar extends Component {
               <Link to="/Studies">
                 <li className="nav-item delay-2" onClick={() => this.toggleNavigationMenu()}>
                   Studies
+                </li>
+              </Link>
+              <Link to="/Skills">
+                <li className="nav-item delay-2" onClick={() => this.toggleNavigationMenu()}>
+                  Skills
                 </li>
               </Link>
               <Link to="/WorkExperience">

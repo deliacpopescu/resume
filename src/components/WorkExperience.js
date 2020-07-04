@@ -4,8 +4,8 @@ import "./WorkExperience.css";
 class WorkExperience extends Component {
   render() {
     return (
-      <div className="d-flex vh-100">
-        <div className="container overlay-with-background align-self-center rounded">
+      <div  id="experience" className="d-flex h-100">
+        <div   className="container my-auto overlay-with-background align-self-center rounded">
           <div className="row text-black-50 p-4">
             <div className="container mt-5 mb-5">
               <div className="row">

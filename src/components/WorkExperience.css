@@ -21,3 +21,9 @@ h6, p{
 h4{
     letter-spacing: 4px;
 }
+
+@media only screen and (max-width: 800px){
+   #experience{
+       margin-top:20px;
+   }
+}
