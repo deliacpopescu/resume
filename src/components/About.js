@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <div id="all" className="d-flex h-100">
-        <div id="about" className="container   overlay-with-background align-self-center rounded">
+        <div id="about" className="container overlay-with-background align-self-center rounded">
           <div className="row text-black-50 p-4">
             <div className="col-xl-4 ">
               <img src={me} className="picture " alt="pic"/>

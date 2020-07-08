@@ -15,6 +15,7 @@ class Hobby extends Component {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-3 text-center text-md-left m-2">
               <div className="item shadow-sm rounded-lg">
                 <div className="text-center p-4">
@@ -53,7 +54,9 @@ class Hobby extends Component {
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
     );
   }

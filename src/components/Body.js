@@ -47,7 +47,7 @@ class Body extends Component {
           <Route path="/About" component={About}/>
           <Route path="/WorkExperience" component={WorkExperience}/>
           <Route path="/Studies" component={Studies}/>
-          <Route path="/Studies" component={Skills}/>
+          <Route path="/Skills" component={Skills}/>
           <Route path="/Hobby" component={Hobby}/>
           <Route path="/Languages" component={Languages}/>
         </Switch>

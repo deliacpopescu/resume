@@ -10,7 +10,7 @@ class WorkExperience extends Component {
             <div className="container mt-5 mb-5">
               <div className="row">
                 <div className="col-md-6 offset-md-3">
-                  <h4 className="font-weight-bold mb-4">Work Experience</h4>
+                  <h4 className="font-weight-bold font-italic mb-4">Work Experience</h4>
                   <div className="timeline">
                     <div className="timeline-item">
                       <div className="timeline-icon "></div>
