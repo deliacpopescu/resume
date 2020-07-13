@@ -20,7 +20,7 @@ class About extends Component {
                   <h5 className="font-weight-bold">City : <span className="font-weight-normal">Cluj-Napoca</span></h5>
                 </div>
                 <div className=" col-xl-6 text-left">
-                  <h5 className="font-weight-bold">Phone : <span className="font-weight-normal">+40 741000000</span></h5>
+                  <h5 className="font-weight-bold">Phone : <span className="font-weight-normal">+40 741172933</span></h5>
                   <h5 className="font-weight-bold">Email : <span className="font-weight-normal">deliabuze@gmail.com</span></h5>
                   <h5 className="font-weight-bold">Degre : <span className="font-weight-normal">Bachelor's degree</span></h5>
                 </div>

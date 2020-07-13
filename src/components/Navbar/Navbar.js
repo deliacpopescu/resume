@@ -94,6 +94,11 @@ class Navbar extends Component {
                   Skills
                 </li>
               </Link>
+              <Link to="/Projects">
+                <li className="nav-item delay-2" onClick={() => this.toggleNavigationMenu()}>
+                  Projects
+                </li>
+              </Link>
               <Link to="/WorkExperience">
                 <li className="nav-item delay-2" onClick={() => this.toggleNavigationMenu()}>
                   Work Experience

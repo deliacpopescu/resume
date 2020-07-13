@@ -35,27 +35,43 @@ class PagesSideBar extends Component {
           </div>
 
           <div className="position-relative">
-            <Link to="WorkExperience">
+            <Link to="Skills">
               <li id="sideBar" data-tip='' data-for="registerTip4">
               </li>
             </Link>
-            <ReactTooltip id="registerTip4" place="left" effect="float">Work Experience</ReactTooltip>
+            <ReactTooltip id="registerTip4" place="left" effect="float">Skills</ReactTooltip>
+          </div>
+
+          <div className="position-relative">
+            <Link to="Projects">
+              <li id="sideBar" data-tip='' data-for="registerTip5">
+              </li>
+            </Link>
+            <ReactTooltip id="registerTip5" place="left" effect="float">Projects</ReactTooltip>
+          </div>
+
+          <div className="position-relative">
+            <Link to="WorkExperience">
+              <li id="sideBar" data-tip='' data-for="registerTip6">
+              </li>
+            </Link>
+            <ReactTooltip id="registerTip6" place="left" effect="float">Work Experience</ReactTooltip>
           </div>
 
           <div className="position-relative">
             <Link to="Hobby">
-              <li id="sideBar" data-tip='' data-for="registerTip5">
+              <li id="sideBar" data-tip='' data-for="registerTip7">
               </li>
             </Link>
-            <ReactTooltip id="registerTip5" place="left" effect="float">Hobby</ReactTooltip>
+            <ReactTooltip id="registerTip7" place="left" effect="float">Hobby</ReactTooltip>
           </div>
 
           <div className="position-relative">
             <Link to="Languages">
-              <li id="sideBar" data-tip='' data-for="registerTip6">
+              <li id="sideBar" data-tip='' data-for="registerTip8">
               </li>
             </Link>
-            <ReactTooltip id="registerTip6" place="left" effect="float">Languages</ReactTooltip>
+            <ReactTooltip id="registerTip8" place="left" effect="float">Languages</ReactTooltip>
           </div>
         </ul>
       </div>

@@ -6,7 +6,7 @@ class MediaSideBar extends Component {
     return (
       <div id="media-icons" className="position-relative my-auto  col-1">
         <span className="overlay" id="follow">Follow Me</span>
-        <div className="overlay icons pl-3">
+        <div className="overlay icons ">
           <a href="https://www.facebook.com/">
             <i className="fab fa-facebook m-3"></i>
           </a>

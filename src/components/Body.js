@@ -5,6 +5,7 @@ import Home from "./Home";
 import Hobby from "./Hobby";
 import Studies from "./Studies";
 import Skills from "./Skills";
+import Projects from "./Projects";
 import WorkExperience from "./WorkExperience";
 import Languages from "./Languages";
 import Particles from "react-particles-js";
@@ -48,6 +49,7 @@ class Body extends Component {
           <Route path="/WorkExperience" component={WorkExperience}/>
           <Route path="/Studies" component={Studies}/>
           <Route path="/Skills" component={Skills}/>
+          <Route path="/Projects" component={Projects}/>
           <Route path="/Hobby" component={Hobby}/>
           <Route path="/Languages" component={Languages}/>
         </Switch>
